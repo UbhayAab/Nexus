@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".NexusApplication" android:allowBackup="true"
+        android:name="com.nexus.NexusApplication"
+        android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -12,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nexus"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name="com.nexus.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Nexus">
             <intent-filter>
@@ -21,6 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>
